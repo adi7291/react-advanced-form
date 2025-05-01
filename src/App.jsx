@@ -1,9 +1,11 @@
+import FormAdvance from "./FormAdvance";
 import FormReactNormal from "./FormReactNormal";
 
 function App() {
   return (
     <>
-      <FormReactNormal />
+      <FormAdvance />
+      {/* <FormReactNormal /> */}
     </>
   );
 }
