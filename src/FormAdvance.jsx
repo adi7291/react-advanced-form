@@ -5,9 +5,9 @@ import {
   genderOption,
   educationOptions,
   hobbyOptions,
-} from "./reactFormdata";
+} from "./formData.js";
 
-import FormInputField from "./FormInputField";
+import FormInputFields from "./FormInputFields";
 
 const FormAdvance = () => {
   const [formData, setFormData] = useState({
@@ -101,7 +101,7 @@ const FormAdvance = () => {
       </legend>
       <div>
         <div>
-          <FormInputField
+          <FormInputFields
             error={error.firstName}
             label="First Name"
             name="firstName"
@@ -110,7 +110,7 @@ const FormAdvance = () => {
           />
         </div>
         <div>
-          <FormInputField
+          <FormInputFields
             label="Last Name"
             name="lastName"
             error={error.lastName}
@@ -119,7 +119,7 @@ const FormAdvance = () => {
           />
         </div>
         <div>
-          <FormInputField
+          <FormInputFields
             label="Email"
             error={error.email}
             name="email"

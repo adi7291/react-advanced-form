@@ -1,10 +1,16 @@
 import FormAdvance from "./FormAdvance";
 import FormReactNormal from "./FormReactNormal";
+import Matrix from "./Matrix";
+import MatrixObject from "./MatrixObject";
+import SearchList from "./SearchList";
 
 function App() {
   return (
     <>
-      <FormAdvance />
+      <SearchList />
+      {/* <MatrixObject /> */}
+      {/* <Matrix /> */}
+      {/* <FormAdvance /> */}
       {/* <FormReactNormal /> */}
     </>
   );
