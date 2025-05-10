@@ -37,6 +37,9 @@ const DynamicInputFields = () => {
         (field) => Object.values(field)[1]
       )}`
     );
+    setDynamicInput(
+      dynamicInput.map((field) => (Object.values(field)[1] = ""))
+    );
   };
   return (
     <>
