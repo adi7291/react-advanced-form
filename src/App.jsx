@@ -1,3 +1,4 @@
+import DynamicInputFields from "./DynamicInputField";
 import TaskApp from "./FinalRoundteralogics";
 import FormAdvance from "./FormAdvance";
 import FormReactNormal from "./FormReactNormal";
@@ -9,7 +10,8 @@ import Timer from "./Timer";
 function App() {
   return (
     <>
-      <Timer />
+      <DynamicInputFields />
+      {/* <Timer /> */}
       {/* <TaskApp /> */}
       {/* <SearchList /> */}
       {/* <MatrixObject /> */}
