@@ -1,3 +1,4 @@
+import Accordion from "./Accordion";
 import DynamicInputFields from "./DynamicInputField";
 import TaskApp from "./FinalRoundteralogics";
 import FormAdvance from "./FormAdvance";
@@ -11,7 +12,8 @@ import Timer from "./Timer";
 function App() {
   return (
     <>
-      <InputHandleByref />
+      <Accordion />
+      {/* <InputHandleByref /> */}
       {/* <DynamicInputFields /> */}
       {/* <Timer /> */}
       {/* <TaskApp /> */}
